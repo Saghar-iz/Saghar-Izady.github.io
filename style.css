@@ -35,3 +35,38 @@ body{
       padding:30px;
       color:#666;
     }
+.hero{
+    display:flex;
+    align-items:center;
+    gap:40px;
+    padding:40px 0;
+    } 
+.hero img{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border-radius:50%;
+    border:4px solid #0f766e;
+    }
+.hero-text{
+    flex:1;
+    }
+.hero-text h1{
+    font-size:48px;
+    margin-bottom:8px;
+    color:#0f766e;
+    }
+.subtitle{
+    color:#0f766e;
+    font-weight:600;
+    letter-spacing:1px;
+    text-transform:uppercase;
+}
+@media (max-width:768px){
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+    }
+
+}
